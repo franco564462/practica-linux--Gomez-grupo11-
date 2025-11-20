@@ -1,0 +1,7 @@
+========== VERIFICACIÓN DE PERMISOS - GOMEZ ==========
+total 4
+-rw-rw---- 1 vagrant vagrant  0 Nov 20 03:18 grupo.txt
+-rw------- 1 vagrant vagrant  0 Nov 20 03:18 privado.txt
+-rw-r--r-- 1 vagrant vagrant  0 Nov 20 03:18 publico.txt
+-rw-rw-r-- 1 vagrant vagrant 56 Nov 20 03:23 verificacion_permisos.txt
+
