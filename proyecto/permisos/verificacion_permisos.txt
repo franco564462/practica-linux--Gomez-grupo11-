@@ -5,3 +5,9 @@ total 4
 -rw-r--r-- 1 vagrant vagrant  0 Nov 20 03:18 publico.txt
 -rw-rw-r-- 1 vagrant vagrant 56 Nov 20 03:23 verificacion_permisos.txt
 
+========== VERIFICACIÓN DE PERMISOS - GOMEZ ==========
+Archivos en mi directorio personal:
+Archivos en directorio colaborativo:
+Información del grupo equipotrabajo:
+equipotrabajo:x:1005:estudiante1,estudiante2,estudiante3,vagrant
+
