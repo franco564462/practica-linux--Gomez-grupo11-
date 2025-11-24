@@ -1,0 +1,33 @@
+========== OPERACIONES EN LVM - GOMEZ ==========
+=== LISTADO DE ARCHIVOS EN EL LVM ===
+/mnt/lvm_storage_gomez:
+total 36
+drwxr-xr-x 4 vagrant vagrant  4096 Nov 24 21:30 .
+drwxr-xr-x 3 root    root     4096 Nov 24 20:55 ..
+-rw-rw-r-- 1 vagrant vagrant    17 Nov 24 21:30 archivo1.txt
+-rw-rw-r-- 1 vagrant vagrant    17 Nov 24 21:30 archivo2.txt
+drwxrwxr-x 2 vagrant vagrant  4096 Nov 24 21:30 carpeta_prueba
+drwx------ 2 vagrant vagrant 16384 Nov 24 20:54 lost+found
+
+/mnt/lvm_storage_gomez/carpeta_prueba:
+total 12
+drwxrwxr-x 2 vagrant vagrant 4096 Nov 24 21:30 .
+drwxr-xr-x 4 vagrant vagrant 4096 Nov 24 21:30 ..
+-rw-rw-r-- 1 vagrant vagrant   26 Nov 24 21:30 archivo3.txt
+
+/mnt/lvm_storage_gomez/lost+found:
+total 20
+drwx------ 2 vagrant vagrant 16384 Nov 24 20:54 .
+drwxr-xr-x 4 vagrant vagrant  4096 Nov 24 21:30 ..
+
+=== ESPACIO EN DISCO DEL LVM ===
+/dev/mapper/vg_dato_gomez-lv_storage_gomez  1.5G   40K  1.4G   1% /mnt/lvm_storage_gomez
+
+=== PRUEBA DE BORRADO DE ARCHIVO ===
+archivo2.txt eliminado correctamente
+total 32
+drwxr-xr-x 4 vagrant vagrant  4096 Nov 24 21:50 .
+drwxr-xr-x 3 root    root     4096 Nov 24 20:55 ..
+-rw-rw-r-- 1 vagrant vagrant    17 Nov 24 21:30 archivo1.txt
+drwxrwxr-x 2 vagrant vagrant  4096 Nov 24 21:30 carpeta_prueba
+drwx------ 2 vagrant vagrant 16384 Nov 24 20:54 lost+found
